@@ -34,7 +34,8 @@ function makeChart() {
 	//Draw the x-axis
 	var xAxis = d3.svg.axis()
 	  .scale(x)
-	  .orient('bottom'); 
+	  .orient('bottom')
+	  .tickFormat(d3.format("d")); //Removes thousands comma from years 
 
     //Create g element for x axis
 	main.append('g')
