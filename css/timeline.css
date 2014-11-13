@@ -1,0 +1,33 @@
+body {
+    font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main text {
+    font-size: 12px;	
+}
+
+.axis line, .axis path, line.scatter-point {
+    shape-rendering: crispEdges;
+    stroke: #999999;
+    fill: none;
+}
+
+h4 {
+	text-align: center;
+  font-size: 20px;
+}
+
+circle {
+	fill: white;
+  stroke-width: 1;
+  stroke: #467091;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #999999;
+}
